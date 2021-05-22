@@ -1,0 +1,19 @@
+.loader-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+.loader-3 div{
+    background-color: crimson;
+    width: 20px;
+    height: 20px;
+    /*margin-top: -20px;
+    */transform-origin: center center;
+    border-radius: 50%;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
