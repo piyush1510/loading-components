@@ -1,0 +1,22 @@
+.loader-4 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(transparent,transparent,crimson);
+  animation: spin4 0.5s linear infinite;
+  -webkit-animation: spin4 1s linear infinite;
+  mask: radial-gradient(circle, rgba(1,140,184,0) 60%, white 61%);;
+}
+@keyframes spin4{
+  from{}
+  to{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+}
